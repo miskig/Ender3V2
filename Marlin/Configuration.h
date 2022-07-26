@@ -138,7 +138,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Printy-UBL"
+#define CUSTOM_MACHINE_NAME "Printy UBL"
 //mike's machine name
 
 // Printer's unique ID, used by some programs to differentiate between machines.

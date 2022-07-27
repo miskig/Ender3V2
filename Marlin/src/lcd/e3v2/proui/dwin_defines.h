@@ -216,5 +216,5 @@ extern HMI_data_t HMI_data;
   #define INVERT_E0_DIR PRO_data.Invert_E0
 
 #endif  // ProUIex
-
+//mike: this line looks suspect
 static constexpr size_t eeprom_data_size = sizeof(HMI_data_t) + TERN0(ProUIex, sizeof(PRO_data_t));

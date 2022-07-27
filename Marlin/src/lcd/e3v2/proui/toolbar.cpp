@@ -39,7 +39,7 @@ void onDrawTBItem(MenuItemClass* menuitem, int8_t line) {
   }
   DWINUI::Draw_Icon(menuitem->icon, xp, B_YPos);
 };
-
+//mike: why is this commented out?
 void Draw_ToolBar(bool force /*=false*/) {
   if (force || (CurrentMenu != &ToolBar)) {
     CurrentMenu = &ToolBar;

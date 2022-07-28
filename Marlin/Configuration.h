@@ -1862,9 +1862,11 @@
  * these options to restore the prior leveling state or to always enable
  * leveling immediately after G28.
  */
-#define RESTORE_LEVELING_AFTER_G28
+//#define RESTORE_LEVELING_AFTER_G28
 #define ENABLE_LEVELING_AFTER_G28
 //mike: you know what I'll turn these both on what's the worst that could happen
+//not allowed to have both on
+//choosing enable rather then restore
 
 /**
  * Auto-leveling needs preheating

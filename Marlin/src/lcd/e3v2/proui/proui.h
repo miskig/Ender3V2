@@ -46,11 +46,11 @@ constexpr bool DEF_INVERT_E0_DIR = INVERT_E0_DIR;
 #if HAS_MESH
 
   constexpr int8_t DEF_GRID_MAX_POINTS = GRID_MAX_POINTS_X;
-  #define GRID_MIN 3
-  #define GRID_LIMIT 9
+  #define GRID_MIN 2
+  #define GRID_LIMIT 15
 
   #ifndef MESH_INSET
-    #define MESH_INSET 25
+    #define MESH_INSET 30
   #endif
   #ifndef MESH_MIN_X
     #define MESH_MIN_X MESH_INSET
